@@ -8,5 +8,5 @@ Created on Sun Jun 15 18:43:54 2025
 from src.data.make_dataset import load_data
 
 def test_load_data():
-    df = load_data("data/raw/credit_data.csv")
+    df = load_data(C:/Users/Usuario/Desktop/TRABAJOF/DATA/credit_data.csv)
     assert not df.empty
